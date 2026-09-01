@@ -66,7 +66,7 @@ main { position: relative; }
 .memory-card:nth-child(even) { grid-template-columns: .9fr 1.1fr; }
 .memory-card:nth-child(even) .photo-wrap { order: 2; }
 .photo-wrap {
-  position: relative; height: min(72vh, 720px); overflow: hidden;
+  position: relative; height:100%; overflow: hidden;
   background: #ddd4c8; box-shadow: 0 35px 70px rgba(54,42,31,.15);
 }
 .photo-wrap::after {
